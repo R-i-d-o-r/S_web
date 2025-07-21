@@ -50,7 +50,7 @@ body{
 #num{
     color:#FFFFFF;
     font-family: "Inter", sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 500;
     letter-spacing: -0.5%;
     
@@ -72,7 +72,7 @@ body{
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    font-size:12px ;
+    font-size:11px ;
     line-height: 145%;
     letter-spacing: -0.5%;
 }
@@ -80,7 +80,7 @@ body{
     color: #FBBC05;
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 145%;
     letter-spacing: -0.5%;
 
@@ -106,7 +106,7 @@ body{
     display: flex;
     align-items: center;
     margin-left: 89px;
-    gap: 8px;
+    gap: 14px;
 
 }
 #ng{
@@ -1005,7 +1005,12 @@ body{
 /* .cont21{
     display: none;
 } */
-
+.br1{
+    display: none;
+}
+.br2{
+    display: none;
+}
 
 @media(max-width:450px){
     .cont1{
@@ -1238,7 +1243,97 @@ body{
     .cont2{
         padding-left: 16px;
     }
-    
+    #grains{
+        font-size: 11.78px;
+
+    }
+    #b5 {
+    align-items: center;
+    display: flex;
+    gap: 4.91px;
+    background-color: #2F945C;
+    width: 46.95px;
+    height: 18.47px;
+    margin-top: 7.85px;
+    border: none;
+    border-radius: 1.96px;
+    color: #FFFFFF;
+    padding-left: 5.24px;
+    padding-bottom: 5.24px;
+    padding-right: 5.24px;
+    padding-top: 5.24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 5.24px;
+    line-height: 7px;
+    letter-spacing: 0%;
+    }
+
+    .img3{
+        width: 195.07px;
+        height: 123.02px;
+        border-radius: 3.27px;
+    }
+    #we{
+        font-size: 24px;
+
+    }
+    .fresh{
+        font-size: 16px;
+    }
+    .s-fresh{
+        font-size: 12px;
+    }
+    .br{
+        display: none;
+    }
+    .br1{
+        display: block;
+    }
+    .br2{
+        display: block;
+    }
+    #free{
+        font-size: 16.43px;
+        line-height: 20.58px;
+    }
+    #b8{
+    align-items: center;
+    display: flex;
+    gap: 4.91px;
+    background-color: #2F945C;
+    width: 46.95px;
+    height: 18.47px;
+    margin-top: 7.85px;
+    border: none;
+    border-radius: 1.96px;
+    color: #FFFFFF;
+    padding-left: 5.24px;
+    padding-bottom: 5.24px;
+    padding-right: 5.24px;
+    padding-top: 5.24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 5.24px;
+    line-height: 7px;
+    letter-spacing: 0%;
+    }
+    .color-fill{
+        width: 398px;
+        height:101px;
+    }
+    .fill{
+    display: flex;
+    align-items: center;
+    padding-top: 29px;
+    margin-left: 16px;
+    gap: 26.84px;
+    }
+    #goods{
+        width: 135.47px;
+        height: 95.25px;
+        margin-left: 260px;
+    }
 
 
         
