@@ -1334,6 +1334,25 @@ body{
         height: 95.25px;
         margin-left: 260px;
     }
+    #like{
+        font-size: 3.58px;
+        line-height: 5.97px;
+    }
+    #Let{
+        font-size: 8.36px;
+        line-height: 10.75px;
+    }
+    #if{
+        font-size: 4.78px;
+        line-height: 7.17px;
+        margin-top: 3.58px;
+
+    }
+    #divider{
+        margin-top: 19.11px;
+        width: 363.11px;
+        height: 0.3px;
+    }
 
 
         
