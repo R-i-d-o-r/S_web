@@ -10,6 +10,7 @@ body,html{
     height: 100%;
     overflow-x: hidden;
     
+    
 }
 .cont1{
     background-color:#0C2718;
@@ -1030,17 +1031,96 @@ body,html{
 .mobile{
     display: block;
 }
-    .backDrop{
+.backDrop{
     display: none;
     
-    }
+}
+#s{
+    display: block;
+}
+.logo-bag{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.msearch{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#search{
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #667185;
+    outline: none;
+}
+#home{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
 
-@media(max-width:900px){
+}
+#about{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+
+}
+#gr{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+
+}
+#mbutton1{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2F945C;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+#mbutton2{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid  #2F945C;
+    background-color:white;
+    font-family: "Inter", sans-serif;
+    color: #2F945C;
+    font-weight: 600;
+    font-size: 18px;
+}
+.mobile-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.m2buttons{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 10px;
+    margin-left:90px ;
+
+}
+#cancel{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    width: 10px;
+    height: 10px;
+}
+
+@media(max-width:1000px){
     html,body{
-        overflow-x: hidden;
         max-width: 100vw;
         position: relative;
     }
+
     .backDrop{
         display: flex;
         position: absolute;
@@ -1561,7 +1641,7 @@ body,html{
         background-color: #2F945C;
         width: 46.95px;
         height: 18.47px;
-        margin-top: 7.85px;-
+        margin-top: 7.85px;
         border: none;
         border-radius: 1.96px;
         color: #FFFFFF;
@@ -1575,55 +1655,56 @@ body,html{
         line-height: 7px;
         letter-spacing: 0%;
     }
+
     .cont4 {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-top: -190px;
-    width: 100%;
-    height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: -190px;
+        width: 100%;
+        height: 100%;
 
     }
     .buttarrw {
-    display: flex;
-    align-items: center;
-    gap: 147px;
+        display: flex;
+        align-items: center;
+        gap: 147px;
     }
     #butt5 {
-    width: 43.95px;
-    height: 9.65px;
-    border-radius: 3.97px;
-    border: 0.33px solid #FBBC05;
-    background-color: transparent;
-    padding-left: 1.32px;
-    padding-right: 1.32px;
-    padding-bottom: 1px;
-    padding-top: 1px;
-    color: #F3A218;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-size: 4.64px;
-    line-height: 6.62px;
-    letter-spacing: 0%;
+        width: 43.95px;
+        height: 9.65px;
+        border-radius: 3.97px;
+        border: 0.33px solid #FBBC05;
+        background-color: transparent;
+        padding-left: 1.32px;
+        padding-right: 1.32px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        color: #F3A218;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 4.64px;
+        line-height: 6.62px;
+        letter-spacing: 0%;
     }
     #arrow {
-    width: 11.38px;
-    height: 11.38px;
-    opacity: 60%;
+        width: 11.38px;
+        height: 11.38px;
+        opacity: 60%;
     }
     .buttom-space {
-    margin-top: 188.7px;
-    display: flex;
-    align-items: center;
-    gap: 41px;
+        margin-top: 188.7px;
+        display: flex;
+        align-items: center;
+        gap: 41px;
     }
     #shop {
-    color: #FFFFFF;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 14.57px;
-    letter-spacing: -2%;
+        color: #FFFFFF;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14.57px;
+        letter-spacing: -2%;
     }  
     #b7 {
         align-items: center;
@@ -1632,7 +1713,7 @@ body,html{
         background-color: #2F945C;
         width: 46.95px;
         height: 18.47px;
-        margin-top: 7.85px;-
+        margin-top: 7.85px;
         border: none;
         border-radius: 1.96px;
         color: #FFFFFF;
@@ -1646,47 +1727,45 @@ body,html{
         line-height: 7px;
         letter-spacing: 0%;
     }
-   
     .img5 {
-    
-    height: 100%;
-    width: 60%;
-    border-radius: 3px;
-    padding-left: 17px;
-    padding-top: 14px;
-      background-size: cover; 
-    background-repeat: no-repeat;    /* Prevents the image from repeating */
-    background-position: center; 
+        height: 100%;
+        width: 60%;
+        border-radius: 3px;
+        padding-left: 17px;
+        padding-top: 14px;
+        background-size: cover; 
+        background-repeat: no-repeat;    /* Prevents the image from repeating */
+        background-position: center; 
     }
     .cont41 {
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-    width: 40%;
-    height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        width: 40%;
+        height: 100%;
     }
     .img6 {
-    background-image: url(img6.svg);
-     background-size: cover; 
-    background-repeat: no-repeat;    /* Prevents the image from repeating */
-    background-position: center; 
-    height: 50%;
-    width: 100%;
-    padding-top: 70px;
-    padding-left: 14px;
-    border-radius: 3px;
+        background-image: url(img6.svg);
+        background-size: cover; 
+        background-repeat: no-repeat;    /* Prevents the image from repeating */
+        background-position: center; 
+        height: 50%;
+        width: 100%;
+        padding-top: 70px;
+        padding-left: 14px;
+        border-radius: 3px;
     
     }
     .img7 {
-    background-image: url(img7.svg);
-    height: 50%;
-    width: 100%;
-      background-size: cover; 
-    background-repeat: no-repeat;    /* Prevents the image from repeating */
-    background-position: center; 
-    padding-top: 70px;
-    padding-left: 14px;
-    border-radius: 3px;
+        background-image: url(img7.svg);
+        height: 50%;
+        width: 100%;
+        background-size: cover; 
+        background-repeat: no-repeat;    /* Prevents the image from repeating */
+        background-position: center; 
+        padding-top: 70px;
+        padding-left: 14px;
+        border-radius: 3px;
     }
     #butt6{
         width: 43.95px;
@@ -1727,24 +1806,24 @@ body,html{
 
     }
     .rice{
-    width:191px ;
-    height:173.64px ;
+        width:191px ;
+        height:173.64px ;
     }
     .court{
-    display: flex;
-    align-items: center;
-    gap: 2.67px;
-    margin-top: 1px;
+        display: flex;
+        align-items: center;
+        gap: 2.67px;
+        margin-top: 1px;
     }
     .heels{
-    width:155.29px ;
-    height: 17px;
-    color:#101828;
-    font-family:"Inter", sans-serif ;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16.03px;
-    letter-spacing: 0%;
+        width:155.29px ;
+        height: 17px;
+        color:#101828;
+        font-family:"Inter", sans-serif ;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.03px;
+        letter-spacing: 0%;
     }
     .amount{
         gap: 0.3px;
@@ -1782,19 +1861,19 @@ body,html{
         height: 11.69px;
     }
     .butt9{
-    display: flex;
-    align-items: center;
-    padding-left:8px ;
-    padding-bottom: 5.34px;
-    padding-right: 8px;
-    padding-top: 5.34px;
-    border-radius: 10.69px;
-    border: 1px solid #D0D5DD;
-    background-color: #FFFFFF;
-    width: 87.73px;
-    height: 24.69px;
-    gap: 5.34px;
-    margin-top: 10px;
+        display: flex;
+        align-items: center;
+        padding-left:8px ;
+        padding-bottom: 5.34px;
+        padding-right: 8px;
+        padding-top: 5.34px;
+        border-radius: 10.69px;
+        border: 1px solid #D0D5DD;
+        background-color: #FFFFFF;
+        width: 87.73px;
+        height: 24.69px;
+        gap: 5.34px;
+        margin-top: 10px;
     }
     /* .products{
         display: flex;
@@ -1807,86 +1886,204 @@ body,html{
         width: 50%;
         box-sizing: border-box;
     } */
-     .products{
+    .products{
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-bottom: 400px;
-     }
+    }
     
+
+    #s{
+        display: none;
+    }
 }
-.logo-bag{
-    display: flex;
-    align-items: center;
-    gap: 200px;
-}
-.msearch{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-#search{
-    border: none;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #667185;
-    outline: none;
-}
-#home{
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
+
+@media screen and (max-width:400px) {
+    .img1{
+        width: 100vw;
+    }
+    
+    .imgw{
+        width: 92%;
+        height: auto;
+    }
+    .media{
+        gap: 300px;
+    }
+    .imga{
+        width: 53px;
+        height: 25px;
+        
+    }
+    .imgb{
+        width: 50px;
+        height: 25px;
+        
+    }
+    .imgc{
+        width: 57px;
+        height: 25px;
+    }
+    #imgd{
+        width: 57px;
+        height: 25px;
+    }
+    .cont3-menu{
+        gap: 245px;
+    }
+    .img2{
+        width: 45%;
+    }
+    .two-cont{
+        width: 45%;
+    }
+    .img5{
+        width: 55%;
+    }
+    .cont41{
+        width:35% ;
+    }
+    .buttarrw{
+        gap: 137px;
+
+    }
+    .buttom-space{
+        gap: 31px;
+    }
+    .popular{
+        gap: 220px;
+    }
+    .rice{
+        width: 85%;
+        height: auto;
+    }
+    .products{
+        gap: 4px;
+    }
+    .heels{
+        width: 135px;
+    }
+    .fill{
+        gap: 20px;
+    }
+    #goods{
+        margin-left:250px ;
+    }
+    .color-fill{
+        width: 368px;
+    }
 
 }
-#about{
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
+@media screen and (max-width:375px){
+    .media{
+        gap: 280px;
+    }
+    .imga{
+        width: 50px;
+        height: 25px;
+    }
+    .imgb{
+        width: 47px;
+        height: 25px;
+    }
+    .imgc{
+        width: 54px;
+        height: 25px;
+    }
+    .imgd{
+        width: 54px;
+        height: 25px;
+    }
+    .cont3-menu{
+        gap: 225px;
+    }
+    .special{
+        gap: 20px;
+    }
+    .buttarrw{
+        gap: 120px;
+    }
+    .buttom-space{
+        gap: 15px;
+    }
+    .popular{
+        gap: 200px;
+    }
+    .rice{
+        width: 83%;
+        height: auto;
+    }
+    .heels{
+        width: 115px;
+    }
+    #goods{
+        margin-left: 220px;
+    }
+    .color-fill{
+        width: 348px;
+    }
+    .logo-bag{
+        gap: 170px;
+    }
 
 }
-#gr{
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
+@media screen and (max-width:320px) {
+    .media{
+        gap: 230px;
+    }
+    .cont3-menu{
+        gap: 175px;
+    }
+    #we{
+        font-size: 20px;
+    }
+    .fresh{
+        font-size: 12px;
+    }
+    .special{
+        gap: 16px;
+    }
+    .s-fresh{
+        font-size: 10px;
+    }
+    .buttarrw{
+        gap: 90px;
+    }
+    .buttom-space{
+        gap: 5px;
+    }
+    #shop{
+        font-size: 10px;
+    }
+    .popular{
+        gap: 150px;
+    }
+    .heels{
+        width: 95px;
+    }
+    #free{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    #goods{
+        margin-left: 200px;
+        margin-top: -70px;
+        width: 100px;
+    }
+    .fill{
+        margin-left: 10px;
+    }
+    .color-fill{
+        width: 290px;
+    }
+    .logo-bag{
+        gap: 140px;
+    }
+    .menuMobile{
+        height: 140%;
+    }
+    .m2buttons{
+        margin-left: 50px;
+    }
 
-}
-#mbutton1{
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
-    border: none;
-    background-color: #2F945C;
-    font-family: "Inter", sans-serif;
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 18px;
-}
-#mbutton2{
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
-    border: 1px solid  #2F945C;
-    background-color:white;
-    font-family: "Inter", sans-serif;
-    color: #2F945C;
-    font-weight: 600;
-    font-size: 18px;
-}
-.mobile-menu{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.m2buttons{
-    display: flex;
-    align-items: baseline;
-    flex-direction: column;
-    gap: 10px;
-    margin-left:90px ;
-
-}
-#cancel{
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    color: black;
-    width: 10px;
-    height: 10px;
 }
