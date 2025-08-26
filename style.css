@@ -2087,3 +2087,9 @@ body,html{
     }
 
 }
+@media screen and (max-width:414){
+    .media{
+        gap: 200px;
+    }
+
+}
